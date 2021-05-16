@@ -53,11 +53,11 @@ describe('Clickdoc Suite', function () {
         var ele_link_forgetpassword = element(by.xpath("//*[@translate='login.forgotPassword']"));
         expect(ele_link_forgetpassword.isDisplayed()).
             toEqual(true);
-        //e5.click()
+        
         var ele_btn_login = element(by.xpath("//*[@translate='login.buttons.login']"));
         expect(ele_btn_login.isDisplayed()).
             toEqual(true);
-        //e6.click()
+        
 
         var ele_btn_register = element(by.xpath("//*[@translate='login.buttons.register']"));
         expect(ele_btn_register.isDisplayed()).
